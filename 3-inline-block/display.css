@@ -1,0 +1,35 @@
+.example {
+    color: #FFF;
+    text-align: justify;
+}
+
+/* TEXT-ALIGN JUSTIFY JUSTIFICA TODAS AS LINHAS MENOS A ULTIMA, POR ISSO O ELEMENTO ABAIXO:  */
+
+.example::after {
+    content: '';
+    display:inline-block;
+    width: 100%;
+}
+
+.example-item {
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+    /* text-align: center; */
+}
+
+.item-first {
+    background-color: orange;
+}
+
+.item-second {
+    background-color: rgb(4, 236, 198);
+}
+
+.item-third {
+    background-color: rgb(15, 166, 253);
+}
+
+p {
+    text-align: center;
+}
