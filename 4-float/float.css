@@ -1,0 +1,32 @@
+.elementExample {
+    width: 200px;
+    height: 200px;
+    line-height: 200px; /* centraliza dentro da caixa o texto de forma vertical */
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center; /* centraliza dentro da caixa o texto de forma horizontal */
+    /* opacity:0; */
+}
+
+.elementExample_first {
+    background-color: #8E44AD;
+    float: right; /* cria uma nova camada, elemento flutuando, fora do contexto padrão do browser */
+}
+
+.elementExample_last {
+    background-color: #C0392B;
+    float:right;
+}
+
+article {
+    background-color: rgb(58, 226, 43);
+    /* propriedade que força o recalculo do contexto. Verifica se tem alguém flutuando dentro deste elemento, dentro do pai:  */
+    overflow: hidden;
+    /* height:120px;  */
+}
+
+p {
+    /* clear:both; PROPRIEDADE QUE LIMPA O CONTEXTO. NÃO FICA ENTRE ELEMENTOS FLUTUANTES  */
+    clear: left;
+
+}
