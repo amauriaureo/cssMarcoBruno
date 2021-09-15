@@ -1,0 +1,23 @@
+.example {
+    color: #FFF;
+    text-align: center;
+}
+
+.example-item {
+    width: 33.333%;
+    height: 150px;
+    display: inline;
+}
+/* COM A PROPRIEDADE INLINE NÃO É POSSIVEL AJUSTAR ALTURA E LARGURA   */
+
+.item-first {
+    background-color: orange;
+}
+
+.item-second {
+    background-color: rgb(4, 236, 198);
+}
+
+.item-third {
+    background-color: rgb(15, 166, 253);
+}
